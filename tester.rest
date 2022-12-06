@@ -1,0 +1,18 @@
+### create data siswa
+
+POST http://localhost:9000/api/siswa/create
+Content-Type: application/json
+
+{
+    "nama_lengkap" : "Jok",
+    "usia" : 26,
+    "alamat" : "Jl H. Midi Limo Depok",
+    "phone" : "081212345678",
+    "email" : "joko123@andi.com",
+    "nis"   : "123456789"
+}
+
+
+### read data siswa
+GET http://localhost:9000/api/siswa/read 
+Content-Type: application/json
